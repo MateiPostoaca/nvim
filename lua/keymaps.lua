@@ -1,7 +1,7 @@
 vim.keymap.set('n', '\\', '<cmd>vsplit<cr>')
 vim.keymap.set('n', '|', '<cmd>split<cr>')
 
-vim.keymap.set('n', '<F5>', ':NeoRunner<CR>')
+vim.keymap.set('n', '<F5>', '<Plug>(neorg.qol.todo-items.todo.task-cycle)')
 
 vim.keymap.set('v', '<leader>y', '"+y')
 vim.keymap.set('n', '<leader>w', ':w<cr>')
