@@ -26,7 +26,6 @@ return {
   { 'Shatur/neovim-session-manager' },
   { 'windwp/nvim-ts-autotag' },
 
-  { 'mbbill/undotree' },
   { 'nvim-neotest/nvim-nio' },
   { 'fladson/vim-kitty' },
 }
