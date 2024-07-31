@@ -1,4 +1,7 @@
 return {
+  {
+    'williamboman/mason.nvim',
+  },
   'tpope/vim-sleuth',
   {
     'nvim-treesitter/nvim-treesitter',
