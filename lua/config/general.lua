@@ -9,6 +9,8 @@ require('neo-tree').setup({
   },
 })
 
+require 'nvim-treesitter.install'.compilers = { 'clang' }
+
 require("toggleterm").setup {
   size = 20,
   hide_numbers = true,
