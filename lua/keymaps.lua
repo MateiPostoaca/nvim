@@ -6,8 +6,8 @@ vim.keymap.set('n', '<leader>q', ':q<cr>')
 
 -- Coding
 vim.keymap.set('n', '<C-a>', '<Plug>(neorg.qol.todo-items.todo.task-cycle)')
-vim.keymap.set('n', '<F5>', '<cmd>!g++ -Wall -Wextra -Wshadow -o %:r.exe %:r.cpp<cr>')
-vim.keymap.set('n', '<leader>cp', '<cmd>!g++ -Wall -Wextra -Wshadow -o %:r.exe %:r.cpp && %:r.exe<cr>')
+-- vim.keymap.set('n', '<F5>', '<cmd>!g++ -Wall -Wextra -Wshadow -o %:r.exe %:r.cpp<cr>')
+-- vim.keymap.set('n', '<leader>cp', '<cmd>!g++ -Wall -Wextra -Wshadow -o %:r.exe %:r.cpp && %:r.exe<cr>')
 
 -- Telescope
 vim.keymap.set('n', '<leader>?', require('telescope.builtin').oldfiles, { desc = 'Find recently opened files' })
